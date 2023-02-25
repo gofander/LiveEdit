@@ -1,0 +1,84 @@
+/* Reset styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set body background color */
+  body {
+    background-color: #f7f7f7;
+  }
+  
+  /* Container styles */
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+  }
+  
+  /* Logo styles */
+  .logo {
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  /* Row styles */
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+  }
+  
+  /* Column styles */
+  .col {
+    flex: 1;
+    padding: 0 15px;
+  }
+  
+  /* Editor styles */
+  .editor {
+    width: 100%;
+    height: 400px;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Preview styles */
+  .preview {
+    width: 100%;
+    height: 400px;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Button styles */
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #007bff;
+    transition: background-color 0.2s ease-in-out;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #0062cc;
+  }
+  
